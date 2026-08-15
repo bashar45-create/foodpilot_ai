@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "store-mongodb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mongodb-mcp-server@latest",
+        "--readOnly"
+      ],
+      "env": {
+        "MDB_MCP_CONNECTION_STRING": "mongodb://localhost:27017/store_erp",
+        "MDB_MCP_READ_ONLY": "true"
+      }
+    }
+  }
+}

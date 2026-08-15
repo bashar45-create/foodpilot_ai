@@ -1,0 +1,126 @@
+# ----------------------------------------------------------------------
+# Environment & secrets
+# ----------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+frontend/.env.local
+mobile/.env
+mobile/.env.local
+**/*.local
+secrets/
+*.pem
+*.key
+*.crt
+
+# ----------------------------------------------------------------------
+# Dependencies
+# ----------------------------------------------------------------------
+node_modules/
+.venv/
+venv/
+backend/.venv/
+backend/venv/
+backend/env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----------------------------------------------------------------------
+# Build outputs
+# ----------------------------------------------------------------------
+dist/
+build/
+out/
+*.tsbuildinfo
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# Frontend-specific
+frontend/dist/
+frontend/.vite/
+
+# Mobile (Expo / React Native)
+.expo/
+.expo-shared/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+# ----------------------------------------------------------------------
+# Test / coverage / cache
+# ----------------------------------------------------------------------
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.tox/
+backend/coverage.xml
+*.coverage
+coverage/
+.nyc_output/
+
+frontend/coverage/
+
+# ----------------------------------------------------------------------
+# Puku CLI / Claude local state (never commit user/machine-specific state)
+# ----------------------------------------------------------------------
+.puku-cli/
+.puku-cli/worktrees/
+.claude/
+.claude/settings.local.json
+.specify/
+
+# Repo-level instructions that are personal/AI-assistant notes, not project source
+CLAUDE.md
+
+# ----------------------------------------------------------------------
+# IDE / editor
+# ----------------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ----------------------------------------------------------------------
+# OS / misc
+# ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ----------------------------------------------------------------------
+# Logs
+# ----------------------------------------------------------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ----------------------------------------------------------------------
+# Temporary / scratch
+# ----------------------------------------------------------------------
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+files.zip

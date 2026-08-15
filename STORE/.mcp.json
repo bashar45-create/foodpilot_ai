@@ -1,0 +1,38 @@
+{
+  "mcpServers": {
+    "store-mongodb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mongodb-mcp-server@latest",
+        "--readOnly",
+        "--transport",
+        "stdio"
+      ],
+      "env": {
+        "MDB_MCP_CONNECTION_STRING": "mongodb://localhost:27017/store_erp",
+        "MDB_MCP_READ_ONLY": "true",
+        "MDB_MCP_LOG_LEVEL": "info"
+      }
+    },
+    "store-mongodb-http": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mongodb-mcp-server@latest",
+        "--readOnly",
+        "--transport",
+        "http",
+        "--httpHost",
+        "127.0.0.1",
+        "--httpPort",
+        "8080"
+      ],
+      "env": {
+        "MDB_MCP_CONNECTION_STRING": "mongodb://localhost:27017/store_erp",
+        "MDB_MCP_READ_ONLY": "true",
+        "MDB_MCP_LOG_LEVEL": "info"
+      }
+    }
+  }
+}
