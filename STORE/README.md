@@ -43,24 +43,24 @@ Get the project running locally in a few minutes.
 Clone the default branch (currently `main`):
 
 ```powershell
-git clone https://github.com/Afran-zero/STORE.git
+git clone https://github.com/  /STORE.git
 cd STORE
 ```
 
-To clone a specific branch (e.g. `kaif`) directly:
+To clone a specific branch (e.g. ` `) directly:
 
 ```powershell
-git clone -b kaif https://github.com/Afran-zero/STORE.git
+git clone -b   https://github.com/  /STORE.git
 cd STORE
 ```
 
 Or clone `main` and switch later:
 
 ```powershell
-git clone https://github.com/Afran-zero/STORE.git
+git clone https://github.com/  /STORE.git
 cd STORE
 git fetch origin
-git checkout kaif
+git checkout  
 ```
 
 ### 2) Prerequisites
@@ -183,7 +183,7 @@ Install these before setup:
 ### 1) Clone and enter project
 
 ```powershell
-git clone https://github.com/Afran-zero/STORE.git
+git clone https://github.com/  /STORE.git
 cd STORE
 ```
 
