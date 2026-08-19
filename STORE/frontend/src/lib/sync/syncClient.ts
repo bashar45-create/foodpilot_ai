@@ -102,3 +102,6 @@ class SyncClient {
 }
 
 export const syncClient = new SyncClient();
+
+
+/* Summary: This file contains the  logic for the frontend. */

@@ -152,3 +152,6 @@ export function useDeleteStore() {
 
 // Re-export the store summary hook so feature pages can import it next to useStores.
 export { useStoreSummary } from '@/features/analytics/hooks/use-analytics';
+
+
+/* Summary: This file contains the  logic for the frontend. */

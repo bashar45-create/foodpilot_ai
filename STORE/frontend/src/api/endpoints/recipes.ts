@@ -78,3 +78,6 @@ export async function deleteRecipe(id: string): Promise<{ deleted: boolean }> {
 export async function getRecipeCost(id: string): Promise<RecipeCost> {
   return apiClient.get(`/api/v1/recipes/${id}/cost`);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

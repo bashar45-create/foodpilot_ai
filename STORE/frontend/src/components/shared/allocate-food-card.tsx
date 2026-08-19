@@ -133,3 +133,6 @@ export function AllocateFoodCard(): JSX.Element {
     </Card>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

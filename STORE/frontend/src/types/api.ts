@@ -27,3 +27,6 @@ export class ApiException extends Error {
     this.status = options?.status;
   }
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

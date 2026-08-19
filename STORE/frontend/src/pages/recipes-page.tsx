@@ -352,3 +352,6 @@ function RecipeCard({ recipe, foodName, ingredientNameById, onEdit, onDelete }: 
     </Card>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

@@ -58,3 +58,6 @@ export function DataTable<T extends { id?: string }>({
     </Card>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

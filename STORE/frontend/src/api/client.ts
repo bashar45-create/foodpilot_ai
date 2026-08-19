@@ -118,3 +118,6 @@ apiClient.interceptors.response.use(
 );
 
 #navid
+
+
+/* Summary: This file contains the  logic for the frontend. */

@@ -55,3 +55,6 @@ export function clearStoredTokens(): void {
   store.removeItem(REFRESH_TOKEN_KEY);
   store.removeItem(USER_KEY);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

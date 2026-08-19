@@ -7,3 +7,6 @@ import type { UseMutationOptions, UseQueryOptions } from '@tanstack/react-query'
  */
 export { useQuery, useMutation, useQueryClient };
 export type { UseMutationOptions, UseQueryOptions };
+
+
+/* Summary: This file contains the  logic for the frontend. */

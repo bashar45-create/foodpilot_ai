@@ -149,3 +149,6 @@ export function useAdjustStock() {
     },
   });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

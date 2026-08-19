@@ -42,3 +42,6 @@ export function useRecordSale() {
     },
   });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

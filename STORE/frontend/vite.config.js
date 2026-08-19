@@ -34,3 +34,6 @@ export default defineConfig({
         },
     },
 });
+
+
+/* Summary: This file contains the  logic for the frontend. */

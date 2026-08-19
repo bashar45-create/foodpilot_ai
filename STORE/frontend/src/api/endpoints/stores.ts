@@ -24,3 +24,6 @@ export async function listStores(): Promise<StoreRecord[]> {
 export async function createStore(input: CreateStoreRequest): Promise<StoreRecord> {
   return apiClient.post('/api/v1/stores', input);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

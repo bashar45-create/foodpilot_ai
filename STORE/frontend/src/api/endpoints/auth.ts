@@ -50,3 +50,6 @@ export async function resetPassword(token: string, password: string): Promise<vo
 export async function changePassword(currentPassword: string, newPassword: string): Promise<void> {
   await apiClient.post('/api/v1/auth/change-password', { currentPassword, newPassword });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

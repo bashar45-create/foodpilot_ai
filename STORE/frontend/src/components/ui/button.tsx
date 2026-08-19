@@ -32,3 +32,6 @@ export function Button({ className, variant = 'default', type = 'button', asChil
     </button>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

@@ -65,3 +65,6 @@ export async function deleteIngredient(id: string): Promise<{ deleted: boolean }
 export async function listLowStock(): Promise<Ingredient[]> {
   return apiClient.get('/api/v1/inventory/low-stock');
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

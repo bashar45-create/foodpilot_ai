@@ -28,3 +28,6 @@ export function RegisterForm({ onSubmit, isLoading }: { onSubmit: (values: Regis
     </form>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

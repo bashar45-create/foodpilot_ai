@@ -48,3 +48,6 @@ export function Tabs({
     </div>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

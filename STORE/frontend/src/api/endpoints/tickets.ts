@@ -49,3 +49,6 @@ export async function assignTicket(id: string, assignedTo: string | null): Promi
 export async function addTicketComment(id: string, text: string): Promise<Ticket> {
   return apiClient.post(`/api/v1/tickets/${id}/comments`, { text });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

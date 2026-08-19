@@ -15,3 +15,6 @@ export function EmptyState({ title, description, action }: { title: string; desc
     </Card>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

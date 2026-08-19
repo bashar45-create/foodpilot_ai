@@ -32,3 +32,6 @@ export interface SyncConnectionState {
   lastConnectedAt: number | null;
   reconnectAttempts: number;
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

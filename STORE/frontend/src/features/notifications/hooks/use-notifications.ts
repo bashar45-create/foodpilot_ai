@@ -18,3 +18,6 @@ export function useMarkNotificationRead() {
     },
   });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

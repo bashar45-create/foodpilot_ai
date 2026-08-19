@@ -84,3 +84,6 @@ export function useStoreSummary(storeId: string | undefined) {
     enabled: Boolean(storeId),
   });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

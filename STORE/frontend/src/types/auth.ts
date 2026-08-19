@@ -7,3 +7,6 @@ export interface AuthUser {
   email?: string;
   name?: string;
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

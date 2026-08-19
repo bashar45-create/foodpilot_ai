@@ -67,3 +67,6 @@ export async function assignUserToStore(id: string, storeId: string | null): Pro
 export async function resetUserPassword(id: string, newPassword: string): Promise<{ temporary: string }> {
   return apiClient.patch(`/api/v1/users/${id}/reset-password`, { password: newPassword });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

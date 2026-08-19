@@ -15,3 +15,6 @@ export function useSyncAwareRefetchInterval(idleIntervalMs: number | false = fal
   const { pollingFallbackActive } = useSyncConnection();
   return pollingFallbackActive ? 15_000 : idleIntervalMs;
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

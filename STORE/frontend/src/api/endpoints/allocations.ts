@@ -134,3 +134,6 @@ export interface StaleActiveSummary {
 export async function getStaleActiveAllocations(): Promise<StaleActiveSummary> {
   return apiClient.get('/api/v1/allocations/stale-active');
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

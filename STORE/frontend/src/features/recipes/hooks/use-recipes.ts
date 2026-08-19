@@ -92,3 +92,6 @@ export function useDeleteRecipe() {
     },
   });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

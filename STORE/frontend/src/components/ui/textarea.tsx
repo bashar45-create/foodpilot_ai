@@ -16,3 +16,6 @@ export const Textarea = forwardRef<HTMLTextAreaElement, TextareaHTMLAttributes<H
     );
   },
 );
+
+
+/* Summary: This file contains the  logic for the frontend. */

@@ -12,3 +12,6 @@ export function FormDialog({ title, children }: { title: string; children: React
     </Card>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

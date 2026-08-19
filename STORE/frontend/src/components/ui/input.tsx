@@ -16,3 +16,6 @@ export const Input = forwardRef<HTMLInputElement, InputHTMLAttributes<HTMLInputE
     );
   },
 );
+
+
+/* Summary: This file contains the  logic for the frontend. */

@@ -31,3 +31,6 @@ export function LoginForm({ onSubmit, isLoading }: { onSubmit: (values: LoginVal
     </form>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

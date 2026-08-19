@@ -307,3 +307,6 @@ export function DashboardPage(): JSX.Element {
     </div>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

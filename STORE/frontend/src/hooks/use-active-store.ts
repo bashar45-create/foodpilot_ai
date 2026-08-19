@@ -18,3 +18,6 @@ export function useActiveStore(): { storeId: string | null; isLoading: boolean }
     return { storeId: stores?.[0]?.id ?? null, isLoading: false };
   }, [stores, user?.assignedStore, isLoading]);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

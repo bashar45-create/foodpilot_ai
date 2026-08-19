@@ -82,3 +82,6 @@ export function useAddTicketComment(): (id: string, text: string) => Promise<Tic
   });
   return (id: string, text: string) => mutation.mutateAsync({ id, text });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

@@ -104,3 +104,6 @@ export function useUpdateUserMutation() {
     },
   });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

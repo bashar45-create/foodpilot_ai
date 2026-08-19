@@ -41,3 +41,6 @@ export function useSetStock(storeId: string) {
 }
 
 export type { StoreInventoryRow };
+
+
+/* Summary: This file contains the  logic for the frontend. */

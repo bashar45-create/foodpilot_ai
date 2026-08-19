@@ -8,3 +8,6 @@ export function DateRangePicker({ from, to, onChange }: { from?: string; to?: st
     </div>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

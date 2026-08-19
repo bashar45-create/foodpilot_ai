@@ -58,3 +58,6 @@ export async function deleteFood(id: string): Promise<{ deleted: boolean }> {
 export async function recalculateFoodCost(id: string): Promise<FoodItem> {
   return apiClient.post(`/api/v1/food/${id}/recalculate-cost`);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

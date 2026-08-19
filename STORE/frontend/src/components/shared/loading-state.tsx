@@ -7,3 +7,6 @@ export function LoadingState({ label = 'Loading...' }: { label?: string }): JSX.
     </Card>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

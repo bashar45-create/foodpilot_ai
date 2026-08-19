@@ -15,3 +15,6 @@ export const Select = forwardRef<HTMLSelectElement, SelectHTMLAttributes<HTMLSel
     );
   },
 );
+
+
+/* Summary: This file contains the  logic for the frontend. */

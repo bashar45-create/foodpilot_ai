@@ -42,3 +42,6 @@ export interface AdjustmentResult {
 export async function adjustStock(input: AdjustmentRequest): Promise<AdjustmentResult> {
   return apiClient.post('/api/v1/inventory/adjust', input);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

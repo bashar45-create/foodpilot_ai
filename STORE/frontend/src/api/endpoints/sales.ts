@@ -52,3 +52,6 @@ export async function getSale(id: string): Promise<Sale> {
 export async function recordSale(input: CreateSaleRequest): Promise<Sale> {
   return apiClient.post('/api/v1/sales', input);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

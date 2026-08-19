@@ -111,3 +111,6 @@ export function useMcpStatus() {
     refetchInterval: 30_000,
   });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

@@ -13,3 +13,6 @@ export function useDashboard(storeId?: string) {
     refetchInterval,
   });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

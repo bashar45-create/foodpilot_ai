@@ -167,3 +167,6 @@ export const router = createBrowserRouter([
   { path: '/support', element: <Bare><SupportPage /></Bare> },
   { path: '*', element: <Bare><NotFoundPage /></Bare> },
 ]);
+
+
+/* Summary: This file contains the  logic for the frontend. */

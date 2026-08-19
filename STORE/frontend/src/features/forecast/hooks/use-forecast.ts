@@ -15,3 +15,6 @@ export function useProjectedDailyForecast(days = 7, top = 10, storeId?: string) 
     queryFn: () => getProjectedDailyForecast(days, top, storeId),
   });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

@@ -25,3 +25,6 @@ export async function listNotifications(storeId?: string): Promise<NotificationR
 export async function markNotificationRead(id: string): Promise<NotificationRecord> {
   return apiClient.post(`/api/v1/notifications/${id}/read`);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

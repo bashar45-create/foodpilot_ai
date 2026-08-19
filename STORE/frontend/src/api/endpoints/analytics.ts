@@ -304,3 +304,6 @@ export async function downloadReportCsv(
   const filename = match?.[1]?.trim() ?? `${report}-${new Date().toISOString().slice(0, 10)}.csv`;
   return { blob, filename };
 }
+
+
+/* Summary: This file contains the API request logic for analytics data. */

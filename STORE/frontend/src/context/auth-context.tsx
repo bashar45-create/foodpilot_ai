@@ -98,3 +98,6 @@ export function useAuth(): AuthContextValue {
   }
   return context;
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

@@ -227,3 +227,6 @@ function KpiTile({ label, value, sub }: { label: string; value: string; sub?: st
     </div>
   );
 }
+
+
+/* Summary: This shared component helps show store detail sheet UI in multiple screens. */

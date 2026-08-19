@@ -46,3 +46,6 @@ export async function getProjectedDailyForecast(
   if (storeId) params.set('storeId', storeId);
   return apiClient.get(`/api/v1/forecasts/projected-daily?${params.toString()}`);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

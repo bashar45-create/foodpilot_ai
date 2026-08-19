@@ -105,3 +105,6 @@ export async function mcpAggregate(payload: {
 export async function mcpCount(payload: { collection: string; filter?: Record<string, unknown> }): Promise<{ count: number }> {
   return apiClient.post('/api/v1/mcp/count', payload);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

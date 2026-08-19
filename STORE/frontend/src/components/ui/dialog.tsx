@@ -66,3 +66,6 @@ export function DialogFooter({ className, ...props }: HTMLAttributes<HTMLDivElem
     />
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

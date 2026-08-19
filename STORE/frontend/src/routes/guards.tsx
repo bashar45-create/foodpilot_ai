@@ -18,3 +18,6 @@ export function RoleGuard({ roles, children }: { roles: Array<'OWNER' | 'MANAGER
   }
   return <>{children}</>;
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

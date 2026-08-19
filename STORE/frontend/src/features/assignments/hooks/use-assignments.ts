@@ -39,3 +39,6 @@ export function useUpsertAssignment() {
     },
   });
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

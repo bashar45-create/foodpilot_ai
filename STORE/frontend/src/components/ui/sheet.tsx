@@ -59,3 +59,6 @@ export function Sheet({ open, onOpenChange, title, description, children, classN
     document.body,
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

@@ -14,3 +14,6 @@ export function AuthPanel({ title, description, children }: { title: string; des
     </Card>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

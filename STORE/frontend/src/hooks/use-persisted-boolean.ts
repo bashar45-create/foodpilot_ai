@@ -35,3 +35,6 @@ export function usePersistedBoolean(
   const toggle = useCallback(() => setValue((current) => !current), []);
   return [value, { set, toggle }];
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

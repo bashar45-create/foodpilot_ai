@@ -43,3 +43,6 @@ export function TableEmpty({ children, colspan = 1 }: { children: React.ReactNod
     </tr>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

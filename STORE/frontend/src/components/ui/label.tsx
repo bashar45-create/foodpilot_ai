@@ -12,3 +12,6 @@ export const Label = forwardRef<HTMLLabelElement, LabelHTMLAttributes<HTMLLabelE
     );
   },
 );
+
+
+/* Summary: This file contains the  logic for the frontend. */

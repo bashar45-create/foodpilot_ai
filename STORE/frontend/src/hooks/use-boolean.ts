@@ -11,3 +11,6 @@ export function useBoolean(initial = false): [boolean, { on: () => void; off: ()
     },
   ];
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

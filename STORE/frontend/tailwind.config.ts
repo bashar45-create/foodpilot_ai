@@ -22,3 +22,6 @@ export default {
   },
   plugins: [],
 } satisfies Config;
+
+
+/* Summary: This file contains the  logic for the frontend. */

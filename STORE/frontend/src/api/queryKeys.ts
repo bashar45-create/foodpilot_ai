@@ -95,3 +95,4 @@ export const ticketKeys = {
   list: () => ['tickets', 'list'] as const,
   detail: (id: string) => ['tickets', 'detail', id] as const,
 };
+

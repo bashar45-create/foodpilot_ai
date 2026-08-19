@@ -66,3 +66,6 @@ export async function markAttendanceStatus(payload: {
   const { userId, ...body } = payload;
   return apiClient.post(`/api/v1/attendance/employee/${userId}/mark`, body);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

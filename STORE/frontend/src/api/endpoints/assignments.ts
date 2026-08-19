@@ -34,3 +34,6 @@ export async function upsertAssignment(input: UpsertAssignmentRequest): Promise<
 export async function listRecentAssignments(storeId: string): Promise<DailyAssignment[]> {
   return apiClient.get(`/api/v1/assignments/recent?storeId=${encodeURIComponent(storeId)}`);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

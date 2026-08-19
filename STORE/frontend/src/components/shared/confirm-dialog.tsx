@@ -15,3 +15,6 @@ export function ConfirmDialog({ title, description, confirmLabel = 'Confirm', on
     </Card>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

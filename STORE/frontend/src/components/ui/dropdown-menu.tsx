@@ -86,3 +86,6 @@ export function DropdownItem({
 export function DropdownSeparator() {
   return <div className="my-1 h-px bg-zinc-200" />;
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

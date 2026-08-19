@@ -34,3 +34,6 @@ export async function setStock(input: SetStockRequest): Promise<StoreInventoryRo
 export async function listLowStock(storeId: string): Promise<StoreInventoryRow[]> {
   return apiClient.get(`/api/v1/store-inventory/low-stock?storeId=${encodeURIComponent(storeId)}`);
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */

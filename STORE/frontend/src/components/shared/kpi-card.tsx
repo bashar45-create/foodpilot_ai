@@ -18,3 +18,6 @@ export function KpiCard({ label, value, delta }: { label: string; value: string;
     </Card>
   );
 }
+
+
+/* Summary: This file contains the  logic for the frontend. */
