@@ -1,6 +1,6 @@
-# STORE
+# Foodpilot AI
 
-STORE is a multi-tenant smart multi-store ERP platform.
+foodpilot AI is a multi-tenant smart multi-store ERP platform.
 
 ## Repository Structure
 
